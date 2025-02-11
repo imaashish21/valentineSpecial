@@ -1,0 +1,51 @@
+* {
+  margin-top: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #ffe6e6;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+    padding: 15px;
+  }
+  #yesButton {
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+  }
+  #target {
+    position: absolute;
+    left: 150px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+  p {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  img {
+    max-width: 80px;
+  }
+}

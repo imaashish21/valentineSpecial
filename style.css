@@ -1,0 +1,104 @@
+* {
+  margin-top: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffe6e6;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+}
+
+#container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  margin: 20px;
+  padding: 20px;
+  overflow: hidden;
+}
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+#yesButton {
+  position: absolute;
+  left: 180px;
+  background: #ff6f61;
+
+  border: none;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 8px;
+  cursor: pointer;
+  transition: top 0.5, left 0.5s;
+  margin-top: 20px;
+  text-decoration: none;
+}
+#yesButton a {
+  color: #fff;
+}
+
+img {
+  position: relative;
+  width: 50px;
+  height: 50px;
+}
+
+#target {
+  position: absolute;
+  left: 300px;
+  top: 175px;
+
+  background: #ff6f61;
+  color: #fff;
+  border: none;
+  width: 90px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: top 0.5, left 0.5s;
+}
+button:hover {
+  background: #ff8b81;
+}
+
+@media (max-width: 600px) {
+  .box {
+    width: 100%;
+    padding: 15px;
+  }
+  #yesButton {
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+  }
+  #target {
+    position: absolute;
+    left: 150px;
+    top: 217px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+  }
+
+  img {
+    max-width: 80px;
+  }
+}
